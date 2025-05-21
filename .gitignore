@@ -1,0 +1,37 @@
+# === Rust-related ===
+/target/
+**/target/
+
+# === Cargo ===
+/Cargo.lock
+/.cargo/
+.cargo/config.toml
+
+# === Rocket specific ===
+Rocket.toml
+*.log
+
+# === Environment variables ===
+.env
+.env.*
+
+# === IDEs and editors ===
+# VS Code
+.vscode/
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === Test outputs ===
+/coverage/
+/test-outputs/
+/*.profraw
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.swp
